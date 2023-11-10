@@ -1,0 +1,12 @@
+footer.footer {
+
+    position: sticky;
+    background-color: rgb(8, 225, 160);
+    opacity: 90%;
+    width: 98%;
+    bottom: 20px;
+    margin: 20px;
+    padding: 30px;
+
+
+}
