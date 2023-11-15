@@ -1,0 +1,40 @@
+* {
+    /* color: #F3F3F3; */
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header.header section.buscador {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+}
+
+main nav.nav {
+    padding: 1.3rem;
+}
+
+.canciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.canciones .cancion {
+    width: 400px;
+}
+
+footer.footer {
+    position: sticky;
+    bottom: 0;
+}
