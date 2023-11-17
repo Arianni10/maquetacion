@@ -12,6 +12,16 @@ axios.get('https://leonardoapi.onrender.com/music')
         let div = document.createElement ('div')
         div.classList.add('musica')
 
+        div.addEventListener('click', () => {
+
+            console.log('hizo click')
+            document.querySelector('#current-song-title').innerHTML= song.title
+            document.querySelector('#current-song-author').innerHTML = song.author
+            document.querySelector('#current-song-img').setAttribute('src', song.path.front)
+            document.querySelector('#current-song-audio').setAttribute('src', song.path.audio)
+
+        })
+
         //agrego el contenido al componente
         div.innerHTML =
         `
@@ -19,19 +29,23 @@ axios.get('https://leonardoapi.onrender.com/music')
 
         <li class="cancion">
                 <div class="cancion">
-                     <h3>${song.titlle}</h3>
+                     <h3>${song.title}</h3>
                      <p>${song.author}</p>
                     
                 </div>
         </li>
         `
-        div.addEventListener('click',() => {
 
-            // 
+        div.addEventListener('click', () => {
 
-            document.querySelector('#audio').setAttribute('src',song.path.audio)
-            document.querySelector('#title').innerHTML=song.titll0e
+            //clase siguiente ponemos a reporducir aqui
+            document.querySelector
+
+
         })
+
+
+
         //agrego el componente al contenedor
         track_list.appendChild(div)
 

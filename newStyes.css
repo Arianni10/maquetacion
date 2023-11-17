@@ -16,7 +16,7 @@ body {
 /* este es el buscador */
 
 header.header section.buscador {
-    padding: 1rem 2rem;
+   position: absolute;
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
@@ -26,8 +26,10 @@ header.header section.buscador {
 h2.hh {
     font-size: 16pt;
     display: inline;
-    padding: 30px;
     color: #f7f7f7;
+    margin-left: 300px;
+    margin-right: 20px;
+    
 }
 
 /* botones */
@@ -48,19 +50,29 @@ main {
 
 h1.logo {
     font-size: 40pt;
-    color: #D9D9D9;
+    color: #f0f0f0;
     opacity: 58%;
 }
 
 main nav.nav {
     padding: 1.3rem;
     background-color: #42275b;   
+    
 }
 
 ul.menu {
     font-size: 16pt;
     padding: 20px;
     margin-left: 15%;
+    color: #0c0c0c;
+}
+ul.menu a {
+    color: #f7f7f7;
+}
+ul.menu li.texto {
+    color: #ECD7DD !important;
+    display: flex;
+
 }
 
 ul.menu3 {
@@ -74,6 +86,11 @@ ul.informacion {
     font-size: 16pt;
     padding: 65px;
 }
+ul.informacion a {
+
+    color: #f7f7f7;
+}
+
 
 ul.informacion img {
     float: left;
@@ -95,13 +112,29 @@ h2.subt2 {
     opacity: 58%;
     margin-left: 40px;
 }
+
+ul.menu3 img {
+    float: left;
+    width: 20%;
+    height: 50px;
+    margin-left: 20% ;
+    /* margin-top:  */
+}
+ul.menu3 li {
+
+    color: #f7f7f7;
+}
+li.texto3 {
+    padding: 10px;
+    margin-left: 38%;
+}
 /* lista de canciones */
 
 .canciones {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 200px;
+    gap: 100px;
     margin-top: 70px;
 }
 
@@ -116,6 +149,7 @@ footer.footer {
     background-color: #2a183c;
     position: sticky;
     bottom: 0;
+    opacity: 88%;
 }
 
 div.foto img {
@@ -125,21 +159,6 @@ div.foto img {
     padding-left: 20px;
 }
 
-div.iconos {
-    display: flex;
-    align-items: center;
-    gap: 60px;
-    position: absolute;
-    top: 30px;
-    padding-left: 700px;
-}
-
-div.linea {
-    display: flex;
-    position: absolute;
-    top: 110px;
-    padding-left: 670px;
-}
 
 h3.title {
     font-size: 16pt;
@@ -158,10 +177,12 @@ p.title2 {
     top: 80px;
     padding-left: 200px;
 }
+div.barra {
 
-div.duracion {
-position: absolute;
-top: 70px;
-right: 30px;
-color: #ECD7DD; 
+    display: flex;
 }
+
+
+
+
+
