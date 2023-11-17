@@ -93,44 +93,16 @@ div.container2 {
 }
 
 h2.subt {
-
     font-size: 18pt;
     color: #F3F3F3;
     opacity: 58%;
     margin-left: 30px;
-    padding: 0px;
-    
 }
-
-ul.menu {
-
-    display: block;
-    font-size: 16pt;
-    padding: 20px;
-    margin-left: 15%;
-}
-
 
 li.texto {
-
     padding: 10px;
 }
-
-div.conatiner3 {
-
-
-    display: block;
-    align-items: center;
-
-}
-ul.menu3 {
-
-    display: block;
-    font-size: 16pt;
-    padding: 20px;
-    margin-left: 0%;
-
-}
+   
 
 h2.subt2 {
 

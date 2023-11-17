@@ -9,32 +9,159 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #523a69 ;
+}
+
+/* este es el buscador */
+
 header.header section.buscador {
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
+
+/* texto del buscador */
+h2.hh {
+    font-size: 16pt;
+    display: inline;
+    padding: 30px;
+    color: #f7f7f7;
+}
+
+/* botones */
+button.Boton {
+    padding-left: 15px;
+    padding-right: 90px;
+    background-color: #D9D9D9;
+    color: #9E9E9E;
+    border-radius: 20px;
+    margin-left: 400px;
+    font-size: 20px;
+}
+/* menu */
 
 main {
     display: flex;
 }
 
+h1.logo {
+    font-size: 40pt;
+    color: #D9D9D9;
+    opacity: 58%;
+}
+
 main nav.nav {
     padding: 1.3rem;
+    background-color: #42275b;   
 }
+
+ul.menu {
+    font-size: 16pt;
+    padding: 20px;
+    margin-left: 15%;
+}
+
+ul.menu3 {
+    font-size: 16pt;
+    padding: 20px;
+}
+
+
+ul.informacion {
+    display: block;
+    font-size: 16pt;
+    padding: 65px;
+}
+
+ul.informacion img {
+    float: left;
+}
+
+li.texto {
+    padding: 10px;
+}
+
+h2.subt {
+    font-size: 18pt;
+    color: #F3F3F3;
+    opacity: 58%;
+    
+}
+h2.subt2 {
+    font-size: 18pt;
+    color: #F3F3F3;
+    opacity: 58%;
+    margin-left: 40px;
+}
+/* lista de canciones */
 
 .canciones {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 200px;
+    margin-top: 70px;
 }
 
 .canciones .cancion {
-    width: 400px;
+    width: 200px;
+    margin-top: 0%;
 }
 
+/* footer */
+
 footer.footer {
+    background-color: #2a183c;
     position: sticky;
     bottom: 0;
+}
+
+div.foto img {
+    width: 160px;
+    height: 150px;
+    border-radius: 10px; 
+    padding-left: 20px;
+}
+
+div.iconos {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    position: absolute;
+    top: 30px;
+    padding-left: 700px;
+}
+
+div.linea {
+    display: flex;
+    position: absolute;
+    top: 110px;
+    padding-left: 670px;
+}
+
+h3.title {
+    font-size: 16pt;
+    color: #F3F3F3;
+    padding-left: 20px;
+    position: absolute;
+    top: 40px; 
+    padding-left: 200px;
+}
+
+p.title2 {
+    font-size: 12pt;
+    color: #ECD7DD;
+    padding-left: 20px;
+    position: absolute;
+    top: 80px;
+    padding-left: 200px;
+}
+
+div.duracion {
+position: absolute;
+top: 70px;
+right: 30px;
+color: #ECD7DD; 
 }

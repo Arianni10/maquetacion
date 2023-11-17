@@ -25,6 +25,13 @@ axios.get('https://leonardoapi.onrender.com/music')
                 </div>
         </li>
         `
+        div.addEventListener('click',() => {
+
+            // 
+
+            document.querySelector('#audio').setAttribute('src',song.path.audio)
+            document.querySelector('#title').innerHTML=song.titll0e
+        })
         //agrego el componente al contenedor
         track_list.appendChild(div)
 
